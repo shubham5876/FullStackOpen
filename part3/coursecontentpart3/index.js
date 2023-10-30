@@ -78,7 +78,6 @@ const generateId = () => {
       important: body.important || false,
       id: generateId(),
     }
-  
     notes = notes.concat(note)
   
     response.json(note)
