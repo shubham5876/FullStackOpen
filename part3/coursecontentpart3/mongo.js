@@ -10,7 +10,7 @@ const mongoose = require('mongoose')
 
 const url =
 `mongodb+srv://ssingh5876:${mongoPassword}@fullstackopen.kw0pola.mongodb.net/noteApp?retryWrites=true&w=majority`
-
+console.log(url);
 mongoose.set('strictQuery',false)
 mongoose.connect(url)
 
