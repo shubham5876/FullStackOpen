@@ -3,8 +3,8 @@ const mongoose = require('mongoose')
 mongoose.set('strictQuery', false)
 
 
-const url = process.env.MONGODB_URI
-
+//const url = process.env.MONGODB_URI
+const url = `mongodb+srv://ssingh5876:${mongoPassword}@fullstackopen.kw0pola.mongodb.net/noteApp?retryWrites=true&w=majority`
 
 console.log('connecting to', url)
 
